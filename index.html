@@ -65,7 +65,7 @@
     <g id="allobj"></g>
 
 </div>
-<h4>Values of pure white on the map represents a >90% absortion of light</h4>
+<h4>Values of pure white on the map represents a near 100% absortion of light, this is a feature of the data</h4>
 
 <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MCD43C3_M_BSA" style="font-family:verdana; font-size: 10px">Raster data taken from NASA link HERE</a>
 </br>
@@ -116,7 +116,7 @@
             .shapeWidth(50)
             .title('Surface Albedo at local noon (Ratio of light reflected %)')
             .cells(15)
-            .labels(["0","","","","22.4","","","","","","67.2","","","","90"]);
+            .labels(["6","","18","","30","","42","","52","","64","","88","","90"]);
         svg.append('g')
             .attr('transform', `translate(10,${height + 50})`)
             .call(legend);
@@ -171,7 +171,7 @@
             .shapeWidth(50)
             .title('Surface Albedo at local noon (Ratio of light reflected %)')
             .cells(15)
-            .labels(["0","","","","22.4","","","","","","67.2","","","","90"]);
+            .labels(["6","","18","","30","","42","","52","","64","","88","","90"]);
         svg.append('g')
             .attr('transform', `translate(10,${height + 50})`)
             .call(legend);
